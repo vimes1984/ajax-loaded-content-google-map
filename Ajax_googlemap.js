@@ -17,7 +17,7 @@ jQuery(document).ready(function ($) {
         var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
 
         var kmlLayer = new google.maps.KmlLayer({
-            url: 'http://cga-golf.com/new/wp-content/themes/required-starter/CGAGolfAcademies.kml?rand=' + (new Date()).valueOf(),
+            url: 'https://developers.google.com/kml/documentation/KML_Samples.kml?rand=' + (new Date()).valueOf(),
             suppressInfoWindows: true,
             map: map
         });
